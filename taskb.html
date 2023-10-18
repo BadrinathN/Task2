@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Flexbox Banner</title>
+  <style>
+    body {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: 500px;
+  background-color: black;
+  
+}
+
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  flex: 1;
+  height: 100px;
+  background-color: #3498db;
+}
+
+.box-single {
+  flex-basis: 100%;
+  height: 100px;
+  background-color: #e74c3c;
+  margin: 10px;
+  width:100px;
+}
+
+.box-second {
+  flex-basis:100%;
+  height: 100px;
+  background-color: #3498db;
+  margin: 10px;
+  width:100px;
+}
+.box-third {
+  flex:1;
+  height: 100px;
+  background-color: #e74c3c;
+}
+
+#ii{
+    background-color: orange;
+}
+#iii{
+    background-color: orange;
+}
+.box-Fourth {
+  flex-basis:100%;
+  height: 100px;
+  background-color: #3498db;
+  margin: 10px;
+  width:50px;
+}
+  </style>
+</head>
+<body>
+  <div class="banner">
+    <div class="box" id="ii">
+        <h2> 1 IN 3 </h2>
+        <h4>children and adolescents (2-19)</h4>
+        <h2>ARE OVERWEIGHT OR OBESE</h2>
+    </div>
+    <div class="box">
+        <h2> 12.5 </h2>
+        <h2> MILLION </h2>
+        <h4>children ( ages 5 or younger), spend</h4>
+        <h2>33 HOURS / WEEK</h2>
+    </div>
+    <div class="box-single">
+        <p>OBESITY IS LINKED 
+           TO MORE CHRONIC
+           CONDITIONS THAN: 
+        </p>
+        <h4> increasing the risk of more than 20 preventable diseases, including sleep apnea, asthma, heart disease.</h4>
+    </div>
+    <div class="box-second"></div>
+    <div class="box-third"></div>
+    <div class ="box-third" id="iii"></div>
+    <div class="box-Fourth"></div>
+  </div>
+</body>
+</html>
